@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteCond %{HTTP_HOST} (.*)adde.fridell(.*)
+RewriteRule ^(.*)$ http://fridell.io/madde [R=301,L]
